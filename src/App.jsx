@@ -137,7 +137,7 @@ function App() {
                                 initial={{ scale: 0 }}
                                 animate={{
                                     scale: 1,
-                                    transition: { delay: 1.5, duration: 0.3 },
+                                    transition: { delay: 1.2, duration: 0.3 },
                                 }}
                             >
                                 <Button resetGame={resetGame} />
