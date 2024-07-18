@@ -2,7 +2,6 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
 import Button from "./components/Button";
 import Square from "./components/Square";
-
 function App() {
     const [squares, setSquares] = useState(Array(9).fill(""));
     const [turn, setTurn] = useState("x");
@@ -65,6 +64,7 @@ function App() {
     return (
         <div className="tic-tac-toe">
             <h1> TIC-TAC-TOE </h1>
+            
             <Button resetGame={resetGame} />
             <div className="game">
                 {Array.from("012345678").map((ind) => (
@@ -146,7 +146,9 @@ function App() {
                     </motion.div>
                 )}
             </AnimatePresence>
+            
         </div>
+        
     );
 }
 
