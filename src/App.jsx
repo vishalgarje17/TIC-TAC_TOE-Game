@@ -108,7 +108,7 @@ function App() {
                                 }}
                             >
                                 {winner === "x | o"
-                                    ? "No Winner :/"
+                                    ? "Shittttt ...... No Winner :/"
                                     : "Win !! :)"}
                             </motion.h2>
                             <motion.div
