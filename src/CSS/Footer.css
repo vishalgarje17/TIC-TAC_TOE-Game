@@ -1,0 +1,25 @@
+.footer {
+    padding: 1.9rem; /* Padding */
+    text-align: center; /* Centered text */
+  }
+  
+  .footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:last baseline;
+    gap: 1rem; /* Space between items */
+  }
+  
+  .footer a {
+    color: #cacaca; /* Blue-gray color */
+    transition: color 0.3s;
+  }
+  
+  .footer a:hover,
+  .footer a:focus {
+    color: #dfdfdf; /* Blue color on hover and focus */
+  }
+  .webLink{
+    font-family:  sans-serif;
+    color: antiquewhite;
+  }

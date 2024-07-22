@@ -2,6 +2,8 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
 import Button from "./components/Button";
 import Square from "./components/Square";
+import { Footer } from "./components/Footer";
+
 function App() {
     const [squares, setSquares] = useState(Array(9).fill(""));
     const [turn, setTurn] = useState("x");
@@ -146,7 +148,7 @@ function App() {
                     </motion.div>
                 )}
             </AnimatePresence>
-            
+            <Footer></Footer>
         </div>
         
     );
