@@ -5,7 +5,7 @@
 }
 
 body {
-    background: #312a2a;
+    background: linear-gradient(95deg, rgba(2,167,170,1) 0%, rgba(226,187,104,1) 100%);
     font-family: consolas;
 }
 
@@ -32,8 +32,8 @@ body {
 }
 
 .tic-tac-toe button:hover {
-    background: #eee;
-    color: #222;
+    background: #49FF58;
+    color: #0c0c0c;
 }
 .tic-tac-toe .game {
     display: grid;
