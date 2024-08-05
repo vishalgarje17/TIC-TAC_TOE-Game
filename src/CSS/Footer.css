@@ -1,17 +1,17 @@
 .footer {
-    padding: 1.9rem; /* Padding */
+    padding: 5.9rem; /* Padding */
     text-align: center; /* Centered text */
   }
   
   .footer ul {
     display: flex;
     flex-wrap: wrap;
-    justify-content:last baseline;
-    gap: 1rem; /* Space between items */
+    justify-content:last;
+    gap: 2rem; /* Space between items */
   }
   
   .footer a {
-    color: #cacaca; /* Blue-gray color */
+    color: #000000; /* Blue-gray color */
     transition: color 0.3s;
   }
   
@@ -21,5 +21,5 @@
   }
   .webLink{
     font-family:  sans-serif;
-    color: antiquewhite;
+    color: rgb(233, 183, 118);
   }

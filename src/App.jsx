@@ -65,7 +65,7 @@ function App() {
 
     return (
         <div className="tic-tac-toe">
-            <h1> TIC-TAC-TOE </h1>
+            <h1> TIC-TAC-TOE GAME </h1>
             
             <Button resetGame={resetGame} />
             <div className="game">
@@ -110,7 +110,7 @@ function App() {
                                 }}
                             >
                                 {winner === "x | o"
-                                    ? "Shit.No Winner :/"
+                                    ? "No Winner :/"
                                     : "Win !! :)"}
                             </motion.h2>
                             <motion.div
