@@ -11,8 +11,8 @@
   }
   
   .footer a {
-    color: #000000; /* Blue-gray color */
-    transition: color 0.3s;
+    color: #252424; /* Blue-gray color */
+    transition: color 0.2s;
   }
   
   .footer a:hover,

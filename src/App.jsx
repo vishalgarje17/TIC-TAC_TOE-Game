@@ -110,7 +110,7 @@ function App() {
                                 }}
                             >
                                 {winner === "x | o"
-                                    ? "No Winner :/"
+                                    ? "No Winner .. Please Retry:/"
                                     : "Win !! :)"}
                             </motion.h2>
                             <motion.div
@@ -150,7 +150,6 @@ function App() {
             </AnimatePresence>
             <Footer></Footer>
         </div>
-        
     );
 }
 
